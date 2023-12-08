@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Sanjana's Portfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <p><span>S</span>anjana.</p>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Languages</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                        <i class="ri-close-line" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="ri-menu-line" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Software Engineer</p>
+                    <h1>Hi, I'm <span>Sanjana Kadiri</span></h1>
+                </div>
+            </div>
+        </div>
+        <!---------------about---------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col1">
+                        <img src="images/userdup.jpg">
+                    </div>
+                    <div class="about-col2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>A talented Computer Science Engineer aspiring to gain a full-time position in a reputed company. Gained extensive experience in software development, testing, and deployment through internships. A highly motivated and hardworking individual skilled in Java, SQL, and Python. Seeking a position to utilize the gained skills and experience to positively contribute to the company.</p>   
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('certificates')">Certificates</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>  
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming</span><br>C, C++, Java, Python</li>
+                                <li><span>Development</span><br>HTML/CSS/Javascript</li>
+                                <li><span>Database</span><br>MySQL</li>
+                            </ul>
+                        </div>    
+                        <div class="tab-contents" id="certificates">
+                            <ul>
+                                <li><span>Infosys Springboard</span><br>Learn and Master C Programming For Absolute Beginners.</li>
+                                <li><span>Infosys Springboard</span><br>Programming Fundamentals using Python.</li>
+                                <li><span>Infosys Springboard</span><br>Data Structures and Algorithms using Java.</li>
+                                <li><span>Udemy</span><br>HTML, CSS & JavaScript-Certification Course For Beginners</li>
+                                <li><span>Wipro TalentNext</span><br>Java Full Stack Certification.</li>
+                            </ul>
+                        </div>  
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>BE(Computer Science and Engg)</span><br>Ballari Institute Of Technology & Management<br>2020 - current</li>
+                                <li><span>Pre-University</span><br>Pupil Tree PU College<br>2018 - 2020</li>
+                                <li><span>Class X</span><br>MGM Primary and Secondary School<br>2017 - 2018</li>
+                            </ul>
+                        </div>     
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-----------------Languages----------------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">Languages Known</h1>
+                <div class="services-list">
+                    <div>
+                        <h1>English</h1>
+                        <p>Full Professional Proficiency</p>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-half-s-line"></i>
+                    </div>
+                    <div>
+                        <h1>Kannada</h1>
+                        <p>Native Proficiency</p>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                    </div>
+                    <div>
+                        <h1>Hindi</h1>
+                        <p>Full Professional Proficiency</p>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                    </div>
+                    <div>
+                        <h1>Telugu</h1>
+                        <p>Full Professional Proficiency</p>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-half-s-line"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------------------My Projects-------------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>Asynchronous Task</h3>
+                            <p>Implemented Asynchronous Task in a mobile app using Android Studio.</p>
+                            <i class="ri-share-box-fill"></i>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>Moving Train</h3>
+                            <p>Developed a two dimensional Moving Train using OpenGL. Language used is C.</p>
+                            <i class="ri-share-box-fill"></i>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>Online Tourism Management</h3>
+                            <p>Developed a website for Online Tourism Management System using PHP.</p>
+                            <i class="ri-share-box-fill"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------------------contact------------------->
+        <div id="Contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="ri-send-plane-fill"></i>kadirisanjana1@gmail.com</p>
+                        <p><i class="ri-phone-fill"></i>9945930705</p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/invites/contact/?i=1ds1vxs624mv1&utm_content=2fw9j52"><i class="ri-instagram-fill"></i></a>
+                            <a href="https://www.linkedin.com/in/sanjana-kadiri-945b90258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="ri-linkedin-box-fill"></i></a>
+                        </div>
+                        <a href="images/Resume.pdf" download class="btn btn2">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>
+                    Copyright © Sanjana
+                </p>
+            </div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for(tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sideMenu = document.getElementById("sidemenu");
+            function openmenu() {
+                sideMenu.style.right = "0";
+            }
+            function closemenu() {
+                sideMenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwiLu1tFCsKYf2DOcVcNc0Vv-9wtWUoBwzV3GSzhs7b2tRjmUqhASZ7Xuwxb-2mYkUphQ/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully!"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
